@@ -1,0 +1,23 @@
+name = "jarvis-task-scheduler"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[[durable_objects.bindings]]
+name = "JARVIS_STATE"
+class_name = "JarvisState"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["JarvisState"]
+
+[ai]
+binding = "AI"
+
+# Uncomment and configure if you want custom routes for production
+# [env.production]
+# routes = [
+#   { pattern = "jarvis.yourdomain.com", zone_name = "yourdomain.com" }
+# ]
+
+# Uncomment if using Cloudflare Pages
+# pages_build_output_dir = "dist"

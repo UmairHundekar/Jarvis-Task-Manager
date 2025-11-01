@@ -1,0 +1,20 @@
+{
+  "name": "jarvis-task-scheduler",
+  "version": "1.0.0",
+  "description": "Jarvis-style task scheduling assistant powered by Cloudflare Workers AI",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "pages:dev": "wrangler pages dev dist",
+    "pages:deploy": "wrangler pages deploy dist"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240425.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^4.45.3"
+  },
+  "dependencies": {
+    "itty-router": "^4.0.23"
+  }
+}

@@ -1,0 +1,3 @@
+I want to build a cloudflare application using Llama 3.3, durable objects and an interface that allows for users to talk with the jarvis system through chat with memory of your previous sessions. The website flow is at first it asks you for your desired tasks that you want to complete for the day and then it creates a scheduled plan for how to complete these tasks in a day using the LLM to detect how long the task should take and in a jarvis from iron man manner comments on your progress telling you what task is up now how long to comlpete the task how long till next break and keeping track of your progress
+
+Create a readme for this project that showcases what the project does and also how to run it locally.
